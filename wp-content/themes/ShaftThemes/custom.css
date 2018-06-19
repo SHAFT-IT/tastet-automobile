@@ -1,0 +1,478 @@
+/* Custom Css file */
+.carousel-slide  .carousel-thumb img{ min-height: 160px ;}
+.header-outer-wrapper.b30 {
+    display: -webkit-box !important;
+    display: -moz-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center !important;
+    -webkit-align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -webkit-box-pack: justify !important;
+    -webkit-justify-content: space-between !important;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+    width: 1180px;
+    max-width: 100%;
+    margin: 0 auto !important;
+    -webkit-flex-wrap: wrap !important;
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+}
+.logo-outer-wrapper,
+.primary-nav-outer-wrapper .row{width: auto;}
+.logo-outer-wrapper .row {width: auto;}
+
+.page-wrapper {margin-top: 30px;}
+.logo-wrapper {top: 0 !important; width: 200px;}
+.header-phone {color: #ffffff; font-size: 24px; font-weight: bold; width: 200px; text-align: right;}
+.header-phone i {display: inline-block; vertical-align: middle;}
+.primary-nav-outer-wrapper {width: calc(100% - 500px);}
+.primary-nav-wrapper .columns {width: 100%;}
+.slideMenu {height: auto !important; width: 100% !important;}
+.slideMenu ul {float: none !important; top: 0 !important;
+    display: -webkit-box !important;
+    display: -moz-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center !important;
+    -moz-align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -webkit-box-pack: center !important;
+    -webkit-justify-content: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+
+}
+.slideMenu ul li {float: none !important; list-style: none;background: #2a2a2a; margin: 0 5px;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+}
+.slideMenu ul li a { color: #ffffff !important; border-right: none !important; font-weight: bold; width: auto !important;
+    -webkit-transform: skewX(20deg);
+    -moz-transform: skewX(20deg);
+    -ms-transform: skewX(20deg);
+    -o-transform: skewX(20deg);
+    transform: skewX(20deg);
+}
+.primary-nav ul li.current-menu-item > a {color: #000000 !important;}
+.slideMenu ul li.current-menu-item,
+.slideMenu ul li:hover{background: #ffffff; color: #000000 !important;}
+.slideMenu ul li:hover > a,
+.primary-nav-outer-wrapper .slideMenu ul li a:hover {color: #000000 !important;}
+
+
+.container {max-width: 1180px;}
+.main-wrapper .row {width: 1180px; max-width: 100%;}
+
+
+.contact-home {
+    display: -webkit-box !important;
+    display: -moz-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: start !important;
+    -webkit-align-items: start !important;
+    -ms-flex-align: start !important;
+    align-items: start !important;
+    -webkit-box-pack: justify !important;
+    -webkit-justify-content: space-between !important;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+    -webkit-flex-wrap: wrap !important;
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+}
+.contact-top {width: 100%;}
+.contact-left {width: calc(((100% / 3)*2) - 10px);}
+.contact-right {width: calc((100% / 3) - 10px);}
+.contact-container {
+    display: -webkit-box !important;
+    display: -moz-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center !important;
+    -webkit-align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -webkit-box-pack: justify !important;
+    -webkit-justify-content: space-between !important;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+    -webkit-flex-wrap: wrap !important;
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+}
+.contact-container .w50,
+.contact-container .w100 {margin-bottom: 10px}
+.contact-container .w50 {width: calc(50% - 5px);}
+.contact-container .w100 {width: 100%;}
+
+.contact-container input, select,
+.contact-container textarea {width: 100% !important; background: #1f1f1f !important; border: 1px solid #333333 !important; height: 35px; color: #666666 !important; padding: 0 15px !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wpcf7-select option {color: #8a8b8f;background-color:black;}
+
+.contact-container textarea {padding: 15px; height: 100px;}
+.contact-container input[type=submit] {background: transparent !important; border-color: #ffffff !important; color: #ffffff !important; width: 135px !important;}
+.contact-container input[type=submit]:hover {color: #000000 !important; background: #ffffff !important;}
+
+.contact-right span {display: block; color: #8e8e8e; font-size: 16px; margin-bottom: 10px;}
+.contact-right .header-phone {}
+
+
+.footer-wrapper h3.footer_widgettitle {font-size: 18px !important; font-weight: bold !important; line-height: 22px !important; margin-bottom: 10px !important; padding-bottom: 20px !important;}
+.footer-wrapper h3.footer_widgettitle:after {content: ''; width: 30px; height: 3px; background: #ffffff; display: block; margin-top: 5px;}
+
+.footer-wrapper .widget-container ul {margin-top: 0 !important;}
+.footer-wrapper .widget-container ul li { color: #999999; border-bottom: none !important; list-style: none !important; padding-left: 0 !important;}
+.footer-wrapper .widget-container ul li:before {content: '\f105';font-family: FontAwesome; margin-right: 10px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    vertical-align: baseline;
+    background-image: none !important;
+    background-position: 0 0;
+    background-repeat: repeat}
+.footer-wrapper .widget-container ul li a {}
+.footer-wrapper .widget-container strong {color: #ffffff !important; font-size: 16px;}
+.mailfooter {color: #ffffff;}
+.footer-wrapper .at-resp-share-element {}
+.footer-wrapper .at-resp-share-element a {display: inline-block; background-color: transparent !important; width: auto !important;}
+.footer-wrapper .at-resp-share-element .at-share-btn .at-label {display: none;}
+
+
+
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-results-wrapper .wpcm-vehicle-results {
+    display: -webkit-box !important;
+    display: -moz-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: stretch !important;
+    -webkit-align-items: stretch !important;
+    -ms-flex-align: stretch !important;
+    align-items: stretch !important;
+    -webkit-box-pack: justify !important;
+    -webkit-justify-content: space-between !important;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+    -webkit-flex-wrap: wrap !important;
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-results-wrapper .wpcm-vehicle-results li.wpcm-listings-item {list-style: none; width: calc(50% - 10px); margin-bottom: 20px;}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-results-wrapper .wpcm-vehicle-results li.wpcm-listings-item:before {display: none;}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-results-wrapper .wpcm-vehicle-results li.wpcm-listings-item a {padding: 0; height: 100%; display: block;}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-results-wrapper .wpcm-vehicle-results li.wpcm-listings-item a:hover {background-color: #2a2a2a;}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-results-wrapper .wpcm-vehicle-results li.wpcm-listings-item a * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-results-wrapper .wpcm-vehicle-results li.wpcm-listings-item a .wpcm-listings-item-image-wrapper {width: 100%; height: 200px; position: static; float: none;}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-results-wrapper .wpcm-vehicle-results li.wpcm-listings-item a .wpcm-listings-item-image-wrapper img.wpcm-listings-item-image {
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-results-wrapper .wpcm-vehicle-results li.wpcm-listings-item a .wpcm-listings-item-description,
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-results-wrapper .wpcm-vehicle-results li.wpcm-listings-item a .wpcm-listings-item-meta {width: 100%; float: none; display: block;}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-results-wrapper .wpcm-vehicle-results li.wpcm-listings-item a .wpcm-listings-item-description {padding: 10px;     height: calc(100% - 242px);
+}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-results-wrapper .wpcm-vehicle-results li.wpcm-listings-item a .wpcm-listings-item-meta {  padding: 10px; }
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-results-wrapper .wpcm-vehicle-results li.wpcm-listings-item a .wpcm-listings-item-meta ul {width: 100%;
+    display: -webkit-box !important;
+    display: -moz-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: start !important;
+    -webkit-align-items: start !important;
+    -ms-flex-align: start !important;
+    align-items: start !important;
+    -webkit-box-pack: justify !important;
+    -webkit-justify-content: space-between !important;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+    -webkit-flex-wrap: wrap !important;
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-results-wrapper .wpcm-vehicle-results li.wpcm-listings-item a .wpcm-listings-item-meta ul li {list-style: none;}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-results-wrapper .wpcm-vehicle-results li.wpcm-listings-item a .wpcm-listings-item-meta ul li.wpcm-price {font-size: 30px;}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-results-wrapper .wpcm-vehicle-results li.wpcm-listings-item a .wpcm-listings-item-meta ul li.wpcm-price:before {display: none;}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-results-wrapper .wpcm-vehicle-results li.wpcm-listings-item a .wpcm-listings-item-meta ul li:nth-child(3) {color: #999999;}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-results-wrapper .wpcm-vehicle-results li.wpcm-listings-item a .wpcm-listings-item-meta ul li:nth-child(3):before {content: '\f0e4';font-family: FontAwesome;}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-results-wrapper .wpcm-vehicle-results li.wpcm-listings-item a .wpcm-listings-item-meta ul li:last-child {color: #999999;}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-results-wrapper .wpcm-vehicle-results li.wpcm-listings-item a .wpcm-listings-item-meta ul li:last-child:before {content: '\f073';font-family: FontAwesome;}
+
+
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-filters {background: none;}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-filters * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.content-wrapper .select2-container--default .select2-selection--single {background: #1a1a1a; border-radius: 0; border-color: #333333; height: 30px;}
+.content-wrapper .select2-container--default .select2-selection--single .select2-selection__arrow {background: #333333; height: calc(100% - 2px);}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-filters .wpcm-filter {width: calc(100% / 3); padding: 0 1em 5px;}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-filters .wpcm-filter br {display: none;}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-filters .wpcm-filter .select2-container {}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-filters .wpcm-filter-make,
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-filters .wpcm-filter-model {width: 50%;}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-filters .wpcm-filter-button  {padding-top: 5px}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-sort {
+    background-color: #333333;
+    display: -webkit-box !important;
+    display: -moz-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center !important;
+    -webkit-align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -webkit-box-pack: start !important;
+    -webkit-justify-content: flex-start !important;
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important;
+    -webkit-flex-wrap: wrap !important;
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-sort label {margin-right: 10px; color: #ffffff;}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-sort label br {display: none;}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-sort #wpcm-sort {max-width: 150px !important; background: #1f1f1f !important;}
+
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-listings-pagination {}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-listings-pagination ul {}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-listings-pagination li {}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-listings-pagination li:before {display: none;}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-listings-pagination li a {text-decoration: none; background: #333333; color: #ffffff;}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-listings-pagination li .current,
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-listings-pagination li a:hover {background: #ffffff; color: #000000;}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-filters .wpcm-filter label {color: #ffffff;}
+.content-wrapper .wpcm-vehicle-listings .wpcm-vehicle-filters .wpcm-filter input[type=submit]:hover {background: #ffffff !important; color: #333333 !important; border-color: #ffffff;}
+
+
+
+.content-wrapper table {width: 100%; color: #ffffff; margin-bottom: 20px;}
+.content-wrapper table tr {}
+.content-wrapper table tr:nth-child(even) {background: #2a2a2a;}
+.content-wrapper table tbody tr td {color: #ffffff;}
+.content-wrapper .wpcm-contact {display: none}
+
+.content-wrapper table tr td,
+.content-wrapper table tr th {padding: 5px 10px; width: 50%;}
+
+.content-wrapper .share_entry {}
+.content-wrapper .share_entry ul {}
+.content-wrapper .share_entry ul li {}
+.content-wrapper .share_entry ul li:before {display: none}
+
+
+.content-wrapper .wpcm-vehicle-head {display: block; width: 100%;}
+.content-wrapper .wpcm-vehicle-head .wpcm-images {width: 100%; margin-bottom: 20px;}
+.content-wrapper .wpcm-vehicle-head .wpcm-images .wpcm-main-image {width: 100%; display: block; height: auto;}
+.content-wrapper .wpcm-vehicle-head .wpcm-images .wpcm-main-image img {width: 100%;}
+.content-wrapper .wpcm-vehicle-head .wpcm-images .wpcm-thumbnails {
+    display: -webkit-box !important;
+    display: -moz-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: start !important;
+    -webkit-align-items: start !important;
+    -ms-flex-align: start !important;
+    align-items: start !important;
+    -webkit-box-pack: justify !important;
+    -webkit-justify-content: space-between !important;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+    -webkit-flex-wrap: nowrap !important;
+    -ms-flex-wrap: nowrap !important;
+    flex-wrap: nowrap !important;
+}
+.content-wrapper .wpcm-vehicle-head .wpcm-images .wpcm-thumbnails a {}
+
+.content-wrapper .wpcm-summary .wpcm-price {
+
+}
+.content-wrapper .page-featured-image {display: none;}
+.content-wrapper .wpcm-summary .wpcm-price {
+    position: relative;
+    padding: 10px 20px 10px 10px;
+    font-size: 40px;
+    color: #FFF;
+    background: #2a2a2a;
+    display: inline-block;
+    line-height: 60px;
+    width: auto;
+    font-weight: bold;
+}
+.content-wrapper .wpcm-summary .wpcm-price:after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -60px;
+    z-index: -1;
+    background: #2a2a2a;
+    transform-origin: bottom left;
+    -ms-transform: skew(30deg, 0deg);
+    -webkit-transform: skew(30deg, 0deg);
+    transform: skew(30deg, 0deg);
+}
+.content-wrapper .f15.capitalize {color: #ffffff; font-size: 18px; margin-top: 30px; font-weight: normal;}
+.content-wrapper .wpcm-content-block ul {padding-left: 15px;}
+.content-wrapper .wpcm-content-block li:before {
+    content: '\f105';
+    font-family: FontAwesome;
+    margin-right: 10px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    vertical-align: baseline;
+}
+.content-wrapper  ul.service-liste {
+    display: -webkit-box !important;
+    display: -moz-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: stretch !important;
+    -webkit-align-items: stretch !important;
+    -ms-flex-align: stretch !important;
+    align-items: stretch !important;
+    -webkit-box-pack: justify !important;
+    -webkit-justify-content: space-between !important;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+    -webkit-flex-wrap: nowrap !important;
+    -ms-flex-wrap: nowrap !important;
+    flex-wrap: nowrap !important;
+}
+.content-wrapper ul.service-liste li {width: calc(100% / 4); background: #2a2a2a; padding: 20px; text-align: center; border: 1px solid #333333; display: block;text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;}
+.content-wrapper ul.service-liste li:before {
+    display: block;
+    font-family: FontAwesome;
+    margin-right: 0;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    vertical-align: baseline;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.content-wrapper ul.service-liste li:nth-child(1):before {content:"\f1b9"}
+.content-wrapper ul.service-liste li:nth-child(2):before {content:"\f00e"}
+.content-wrapper ul.service-liste li:nth-child(3):before {content:"\f155"}
+.content-wrapper ul.service-liste li:nth-child(4):before {content:"\f044"}
+
+@media (max-width: 1179px) {
+    .contact-left,
+    .contact-right {width: 100%;}
+}
+@media (max-width: 1130px) {
+    .header-outer-wrapper.b30 {
+        -webkit-justify-content: space-around !important;
+        -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+    }
+    .primary-nav-outer-wrapper {
+        width: 100%;
+        -webkit-box-ordinal-group: 3;
+        -moz-box-ordinal-group: 3;
+        -ms-flex-order: 3;
+        -webkit-order: 3;
+        order: 3;
+    }
+}
+
+@media (max-width: 850px) {
+    .row .three {width: 100% !important;}
+    .BlocAdresse .FormPageContact input {width: 100%;}
+    .row .row {margin-right: 0;}
+}
+
+@media (max-width: 768px) {
+    .contact-container .w50,
+    .contact-container .w100 {width: 100%;}
+    .contact-container input[type=submit] {width: 100%;}
+}
+
+.page-single-element {display:none;}
+.page-meta-wrapper {display:none;}
+
+.f15 {text-transform : uppercase; font-weight:bold;}
+
+.page-title {font-size: 35px !important; padding-bottom : 15px; color:#fff}
+
+.page-short-description {padding-bottom: 29px; font-weight: bold; color: #bbbbbb; font-size:16px;}
+
+.menu-menu-principal-container ul {text-transform:uppercase !important;}
+
+.numtelcontact {
+	color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    width: 200px;
+    text-align: right;
+	text-decoration:none;
+}
+
+.numtelcontact:hover {
+	color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    width: 200px;
+    text-align: right;
+	text-decoration:none;
+}
+
+.numtelcontactpage {
+    font-size: 1rem;
+	text-decoration:none;
+}
+
+.numtelcontactpage:hover {
+    font-size: 1rem;
+	text-decoration:none;
+}
+.numtelcontactdetail {
+	text-decoration:none;
+	color:#ffffff !important;
+}
+.numtelcontactdetail:hover {
+	text-decoration:none;
+	color:#ffffff !important;
+}

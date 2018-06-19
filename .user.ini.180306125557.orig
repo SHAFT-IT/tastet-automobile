@@ -1,0 +1,3 @@
+; Wordfence WAF
+auto_prepend_file = '/var/www/clients/client123/web123/web/wordfence-waf.php'
+; END Wordfence WAF
